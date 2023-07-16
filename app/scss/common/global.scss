@@ -12,8 +12,8 @@ body {
     sans-serif;
   font-weight: 400;
   letter-spacing: normal;
-  background-color: $white;
-  color: $black;
+  background-color: $white-100;
+  color: $grey-100;
 }
 
 body.hidden {
@@ -21,10 +21,10 @@ body.hidden {
 }
 
 .container {
-  max-width: 1410px;
+  max-width: 1230px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 .main {
@@ -51,5 +51,13 @@ body.hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.btn {
+  padding: 18px 48px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: $blue-100;
+  color: $white;
 }
 

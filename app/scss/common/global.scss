@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Poppins",
+    sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  background-color: $white;
+  color: $black;
+}
+
+body.hidden {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1410px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.logo {
+  display: inline-block;
+  z-index: 3;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+

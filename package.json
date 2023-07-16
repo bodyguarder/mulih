@@ -1,0 +1,32 @@
+{
+  "name": "britlex",
+  "version": "1.0.0",
+  "description": "britlex for mine portfoilio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodyguarder/Britlex.git"
+  },
+  "author": "Yerlan Altynbekov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodyguarder/Britlex/issues"
+  },
+  "homepage": "https://github.com/bodyguarder/Britlex#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0",
+    "sass": "^1.53.0"
+  }
+}

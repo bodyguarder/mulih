@@ -1,0 +1,22 @@
+.search-filter {
+  box-shadow: 35px 35px 65px 0 rgba(146, 106, 120, 0.16);
+
+  &__list {
+    padding: 32px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &__filter-name {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: $black-100;
+  }
+}

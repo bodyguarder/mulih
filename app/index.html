@@ -13,8 +13,8 @@
 <body>
   <header class="header">
     <div class="header__container container">
-      <a class="header__logo logo" href="#">
-        <img class="header__logo logo" src="images/sprite.svg#logo-icon" width="115" height="40" alt="link to main page">
+      <a class="header__logo" href="#">
+        <img class="header__logo-img logo__img" src="images/sprite.svg#logo-icon" width="115" height="40" alt="link to main page">
       </a>
 
       <ul class="header__nav-list">
@@ -46,14 +46,401 @@
   </header>
 
   <main class="main">
+    <section class="search-section" style="background-image: url('images/sections/search-section/background-home.png');">
+      <div class="search-section__container container">
+        <div class="search-section__box">
+          <span class="search-section__description-box description-box">real estate</span>
 
+          <h1 class="search-section__title">Let's hunt for your dream residence</h1>
+
+          <p class="search-section__text">Explore our range of beautiful properties with the addition of separate
+            accommodation suitable for you.</p>
+
+          <div class="search-section__wrapper">
+            <ul class="search-section__tabs-list">
+              <li class="search-section__tabs-item">
+                <a class="search-section__tabs-link search-section__tabs-link--active" href="#buy">Buy</a>
+              </li>
+
+              <li class="search-section__tabs-item">
+                <a class="search-section__tabs-link" href="#rent">Rent</a>
+              </li>
+            </ul>
+
+            <ul class="search-section__list">
+              <li class="search-section__item search-filter search-section__item--active" id="buy">
+                <ul class="search-filter__list">
+                  <li class="search-filter__item">
+                    <h3 class="search-filter__filter-name">Location</h3>
+                    <div class="search-filter__wrapper custom-select">
+                      <div class="custom-select__top">
+                        <span class="custom-select__current">Bogor, Jawa Barat</span>
+
+                        <span class="custom-select__icon"
+                          style="background-image: url('images/sprite.svg#chevron-icon');"></span>
+                      </div>
+
+                      <ul class="custom-select__body">
+                        <li class="custom-select__item">
+                          Bogor, Jawa Barat
+                        </li>
+
+                        <li class="custom-select__item">
+                          Jawa, Bogor Barat
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="search-filter__item">
+                    <h3 class="search-filter__filter-name">Type</h3>
+                    <div class="search-filter__wrapper custom-select">
+                      <div class="custom-select__top">
+                        <span class="custom-select__current">Home</span>
+
+                        <span class="custom-select__icon"
+                          style="background-image: url('images/sprite.svg#chevron-icon');"></span>
+                      </div>
+
+                      <ul class="custom-select__body">
+                        <li class="custom-select__item">
+                          Home
+                        </li>
+
+                        <li class="custom-select__item">
+                          Flat
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="search-filter__item">
+                    <h3 class="search-filter__filter-name">Price Range</h3>
+                    <div class="search-filter__wrapper custom-select">
+                      <div class="custom-select__top">
+                        <span class="custom-select__current">$200-$350</span>
+
+                        <span class="custom-select__icon"
+                          style="background-image: url('images/sprite.svg#chevron-icon');"></span>
+                      </div>
+
+                      <ul class="custom-select__body">
+                        <li class="custom-select__item">
+                          $200-$350
+                        </li>
+
+                        <li class="custom-select__item">
+                          $350-$500
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="search-filter__item">
+                    <button class="search-filter__btn btn" type="submit">Search</button>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="search-section__item search-filter" id="rent">
+                <ul class="search-filter__list">
+                  <li class="search-filter__item">
+                    <h3 class="search-filter__filter-name">Location</h3>
+                    <div class="search-filter__wrapper custom-select">
+                      <div class="custom-select__top">
+                        <span class="custom-select__current">Bogor, Jawa Barat</span>
+
+                        <span class="custom-select__icon"
+                          style="background-image: url('images/sprite.svg#chevron-icon');"></span>
+                      </div>
+
+                      <ul class="custom-select__body">
+                        <li class="custom-select__item">
+                          Bogor, Jawa Barat
+                        </li>
+
+                        <li class="custom-select__item">
+                          Jawa, Bogor Barat
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="search-filter__item">
+                    <h3 class="search-filter__filter-name">Type</h3>
+                    <div class="search-filter__wrapper custom-select">
+                      <div class="custom-select__top">
+                        <span class="custom-select__current">Home</span>
+
+                        <span class="custom-select__icon"
+                          style="background-image: url('images/sprite.svg#chevron-icon');"></span>
+                      </div>
+
+                      <ul class="custom-select__body">
+                        <li class="custom-select__item">
+                          Home
+                        </li>
+
+                        <li class="custom-select__item">
+                          Flat
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="search-filter__item">
+                    <h3 class="search-filter__filter-name">Price Range</h3>
+                    <div class="search-filter__wrapper custom-select">
+                      <div class="custom-select__top">
+                        <span class="custom-select__current">$200-$350</span>
+
+                        <span class="custom-select__icon"
+                          style="background-image: url('images/sprite.svg#chevron-icon');"></span>
+                      </div>
+
+                      <ul class="custom-select__body">
+                        <li class="custom-select__item">
+                          $200-$350
+                        </li>
+
+                        <li class="custom-select__item">
+                          $350-$500
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="search-filter__item">
+                    <button class="search-filter__btn btn" type="submit">Search</button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recommendation-section">
+      <div class="recommendation-section__container container">
+        <span class="recommendation-section__description-box description-box">discover</span>
+
+        <h2 class="recommendation-section__title title">Best recommendation</h2>
+
+        <div class="recommendation-section__wrapper">
+          <p class="recommendation-section__text">Discover our exclusive selection of the finest one-of-a-kind luxury
+            properties architectural masterpieces.</p>
+
+          <a class="recommendation-section__link link-more" href="#">Learn More
+            <span class="link-more__icon" style="background-image: url('images/sprite.svg#arrow-icon');"></span>
+          </a>
+        </div>
+     
+        <ul class="recommendation-section__list">
+          <li class="recommendation-section__item product-card">
+            <a class="product-card__link" href="#">
+              <img class="product-card__img" src="images/components/product-card/summer-house.jpg" width="344"
+                height="238" alt="some summer house">
+            </a>
+
+            <h3 class="product-card__title">Perum griya asri</h3>
+
+            <span class="product-card__location">Bogor, Jawa Barat</span>
+
+            <div class="product-card__info">
+              <span class="product-card__price">
+                <span>$</span>25,000
+              </span>
+
+              <span class="product-card__living-area">
+                <span>360m²</span> Living Area
+              </span>
+            </div>
+
+            <button class="product-card__btn btn" type="button">Send Inquiry</button>
+          </li>
+
+          <li class="recommendation-section__item product-card">
+            <a class="product-card__link" href="#">
+              <img class="product-card__img" src="images/components/product-card/winter-house.jpg" width="344"
+                height="238" alt="some winter house">
+            </a>
+
+            <h3 class="product-card__title">Perum kencana asri</h3>
+
+            <span class="product-card__location">Bogor, Jawa Barat</span>
+
+            <div class="product-card__info">
+              <span class="product-card__price">
+                <span>$</span>35,000
+              </span>
+
+              <span class="product-card__living-area">
+                <span>360m2</span> Living Area
+              </span>
+            </div>
+
+            <button class="product-card__btn btn" type="button">Send Inquiry</button>
+          </li>
+
+          <li class="recommendation-section__item product-card">
+            <a class="product-card__link" href="#">
+              <img class="product-card__img" src="images/components/product-card/side-view.jpg" width="344" height="238"
+                alt="some winter house">
+            </a>
+
+            <h3 class="product-card__title">Perum rakjel elit</h3>
+
+            <span class="product-card__location">Bogor, Jawa Barat</span>
+
+            <div class="product-card__info">
+              <span class="product-card__price">
+                <span>$</span>40,000
+              </span>
+
+              <span class="product-card__living-area">
+                <span>360m2</span> Living Area
+              </span>
+            </div>
+
+            <button class="product-card__btn btn" type="button">Send Inquiry</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="advantes-section">
+      <div class="advantes-section__container container">
+        <span class="advantes-section__description-box description-box">our advante</span>
+
+        <h2 class="advantes-section__title title">Giving you peace of mind</h2>
+
+        <ul class="advantes-section__list">
+          <li class="advantes-section__item">
+            <span class="advantes-section__icon" style="background-image: url('images/sprite.svg#heart-icon');"></span>
+
+            <h3 class="advantes-section__subtitle">Comfortable</h3>
+
+            <p class="advantes-section__text">Enjoy lifestyle amenities designed to provide every homeowners modern
+              comfort, a stone's throw away from schools, churches, and hospitals.</p>
+          </li>
+
+          <li class="advantes-section__item">
+            <span class="advantes-section__icon" style="background-image: url('images/sprite.svg#shield-icon');"></span>
+
+            <h3 class="advantes-section__subtitle">Extra security</h3>
+
+            <p class="advantes-section__text">You can connect with potential tenants without having to share your phone
+              number. We also require all users to register to validate their legitimacy.</p>
+          </li>
+
+          <li class="advantes-section__item">
+            <span class="advantes-section__icon" style="background-image: url('images/sprite.svg#star-icon');"></span>
+
+            <h3 class="advantes-section__subtitle">Luxury</h3>
+
+            <p class="advantes-section__text">Find out how we provide the highest standard of professional property
+              management to give you all the benefits of property.</p>
+          </li>
+
+          <li class="advantes-section__item">
+            <span class="advantes-section__icon" style="background-image: url('images/sprite.svg#ticket-icon');"></span>
+
+            <h3 class="advantes-section__subtitle">Best price</h3>
+
+            <p class="advantes-section__text">Not sure what you should be charging for your property? Let us do the
+              numbers for you—contact us today for a free rental appraisal on your home.</p>
+          </li>
+
+          <li class="advantes-section__item">
+            <span class="advantes-section__icon" style="background-image: url('images/sprite.svg#location-icon');"></span>
+
+            <h3 class="advantes-section__subtitle">Strategic location</h3>
+
+            <p class="advantes-section__text">located in the city center close to the shopping center. Very good for
+              areas surrounded by international education centers, start-up office centers.</p>
+          </li>
+
+          <li class="advantes-section__item">
+            <span class="advantes-section__icon"
+              style="background-image: url('images/sprite.svg#graph-icon');"></span>
+
+            <h3 class="advantes-section__subtitle">Efficient</h3>
+
+            <p class="advantes-section__text">Schedule visits to multiple properties at once in one day without having
+              to call them one by one. Check everything and find the best properties for rent.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-section__container container">
+        <div class="about-section__inner" style="background-image: url('images/sections/about-section/apartment.jpg');">
+          <div class="about-section__reviews-quantity">
+            <span class="about-section__icon" style="background-image: url('images/sprite.svg#shield-icon');"></span>
+
+            <span class="about-section__rating">4.8</span>
+
+            <div class="about-section__star-rating star" data-rateyo-rating=5 data-rateyo-normal-fill="#69B99D"
+              data-rateyo-spacing="6px">
+              <span class="sr-only">general rating</span>
+            </div>
+
+            <span class="about-section__desc">Trusted on</span>
+
+            <span class="about-section__desc about-section__desc--color">500+ Reviews</span>
+          </div>
+
+          <ul class="about-section__list">
+            <li class="about-section__item">
+              <span class="about-section__quantity">250+</span>
+              Property Sale
+            </li>
+
+            <li class="about-section__item">
+              <span class="about-section__quantity">550+</span>
+              Apartment Rent
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-section__wrapper">
+          <span class="about-section__description-box description-box">about us</span>
+
+          <h2 class="about-section__title title">How much is your property worth now?</h2>
+
+          <p class="about-section__text">We have built our reputation as true local area experts. We have gained more
+            knowledge about buyer interests, our neighborhood and the market than any other brand because we live
+            locally and work for local people.</p>
+
+          <button class="about-section__btn btn" type="button">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="testimonial-section__container container">
+        <span class="testimonial-section__description-box description-box">customer testimonial</span>
+
+        <div class="testimonial-section__box">
+          <h2 class="testimonial-section__title title">People say about us?</h2>
+
+          <a class="testimonial-section__link link-more" href="#">Learn More
+            <span class="link-more__icon" style="background-image: url('images/sprite.svg#arrow-icon');"></span>
+          </a>
+        </div>
+
+        
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
     <div class="footer__container container">
       <div class="footer__wrapper">
         <a class="footer__logo logo" href="#">
-          <img class="footer__img" src="images/sprite.svg#logo-icon" width="115" height="40" alt="link to main page">
+          <img class="footer__logo-img logo__img" src="images/sprite.svg#logo-icon" width="115" height="40" alt="link to main page">
         </a>
 
         <p class="footer__text">We have built our reputation as true local area experts.</p>

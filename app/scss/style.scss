@@ -6,4 +6,13 @@
 @import 'common/libs'; //библиотеки
 
 @import 'sections/header'; //хэдер
+@import 'sections/search-section'; //поиск квартиры либо дома
+@import 'sections/recommendation-section'; //секция с рекомендуемыми домами
+@import 'sections/advantes-section'; //секция о наших преимуществах
+@import 'sections/about-section'; //секция о нас
+@import 'sections/testimonial-section'; //секция отзывов наших клиентов
 @import 'sections/footer'; // футер
+
+@import 'components/custom-select'; //кастомное меню выбора
+@import 'components/search-filter'; //поисковый фильтр
+@import 'components/product-card'; //карточка с описанием дома

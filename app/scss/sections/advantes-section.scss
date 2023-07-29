@@ -1,0 +1,41 @@
+.advantes-section {
+  padding: 80px 0;
+  background-color: $white-200;
+
+  &__title {
+    margin-bottom: 48px;
+    max-width: 436px;
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  &__item {
+    padding: 20px;
+    max-width: 376px;
+    width: 100%;
+  }
+
+  &__icon {
+    margin-bottom: 16px;
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__subtitle {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 700;
+    color: $black-300;
+  }
+}
